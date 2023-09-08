@@ -1,0 +1,36 @@
+.text-field, .text-area{
+    -fx-background-color: #dbb1b1, #cce7e8;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: black;
+}
+
+
+.box {
+     -fx-background-color: #dbb1b1, #cce7e8;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+.button, .toggle-button {
+-fx-border-width: 1;
+    -fx-border-color: black;
+    -fx-background-color: #cce7e8;
+    cursor: pointer; // seems like Cursor.HAND
+}
+
+.button:hover {
+    -fx-background-color: #69bdd2;
+}
+
+.button:pressed {
+    -fx-background-color: #cce7e8;
+}
